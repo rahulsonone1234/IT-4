@@ -1,13 +1,7 @@
 //const firebase=require("firebase");
 // Firebase Config
 const config = {
-  apiKey: "AIzaSyD_rHdMV2i9UKPFi5DSVqkMF3hx4a5m-aE",
-    authDomain: "it-4-27d6a.firebaseapp.com",
-    databaseURL: "https://it-4-27d6a.firebaseio.com",
-    projectId: "it-4-27d6a",
-    storageBucket: "it-4-27d6a.appspot.com",
-    messagingSenderId: "266333202460",
-    appId: "1:266333202460:web:d6a06100ed620934"
+  
 };
 
 firebase.initializeApp(config);
