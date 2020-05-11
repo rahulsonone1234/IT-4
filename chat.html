@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Chutter-Putter Chit Chat</title>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <title>IT-4</title>
+      <link rel="stylesheet" href="css/components.css">
+      <link rel="stylesheet" href="css/icons.css">
+      <link rel="stylesheet" href="css/responsee.css">
+      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="owl-carousel/owl.theme.css"> 
+      <!-- CUSTOM STYLE -->
+      <link rel="stylesheet" href="css/template-style.css"> 
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>  
+      <!-- popup login-->
+</head>
+
+<body style="background-image:url('a.jpg')">
+    <header>
+        <nav>
+           <div class="line">
+              <div class="top-nav">              
+                 <div class="logo logo-small">
+                    <a href="home.html">IT-4 <br /><strong>FAMILY</strong></a>
+                 </div>                  
+                 <p class="nav-text">menu</p>
+                 <div class="top-nav s-12 l-5">
+                    <ul class="right top-ul chevron">
+                       <li><a href="home.html">Home</a>
+                       </li>
+                       <li><a href="about us.html">About us</a>
+                       </li>
+                       <li><a href="Qualities.html">Qualities</a>
+                       </li>
+                    </ul>
+                 </div>
+                 <ul class="s-12 l-2">
+                    <li class="logo hide-s hide-m">
+                       <a href="home.html">IT-4<br /><strong>FAMILY</strong></a>
+                    </li>
+                 </ul>
+                 <div class="top-nav s-12 l-5">
+                    <ul class="top-ul chevron">
+                       <li><a href="gallery.html">Gallery</a>
+                       </li>
+                       
+                       <li><a href="contact.html">Contact</a>
+                       </li>
+                       <li><a href="chat.html">Chit-chat</a>
+                       </li>
+                    </ul> 
+                 </div>
+              </div>
+           </div>
+        </nav>
+     </header>
+    <div class="chat">
+        <form id="nameForm">
+            <input type="text" id="name-input" placeholder="Enter your name">
+            <button id="name-btn">Enter</button>
+        </form>
+        <div class="chat-header">Chutter-Putter Chit Chat</div>
+        <div class="chat-window" id="chat-window">
+            <ul id="messages">
+
+            </ul>
+            <form id="messageForm">
+                <input type="text" id="msg-input" placeholder="Enter a message" disabled>
+                <button id="msg-btn" disabled>Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/node-uuid/1.4.8/uuid.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
